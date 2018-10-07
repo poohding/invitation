@@ -27,9 +27,9 @@ html {
 
 body {
     background-color: #ffffff;
-    font-family: 'Playfair Display', 'Yeon Sung', cursive;
-    font-size: 1.8rem;
-    line-height: 1.8;
+    font-family: 'Playfair Display', 'Nanum Myeongjo', cursive;
+    font-size: 1.4rem;
+    line-height: 1.4;
 }
 
 .line {
@@ -76,8 +76,8 @@ header {
             font-family: 'Yeon Sung', cursive;
 
             i {
-                animation: heartbeat 1s infinite;
-                color: #c33;
+                animation: heartbeat 1.6s infinite;
+                color:rgba(204, 51, 51, .8);
             }
         }
     }
@@ -88,7 +88,7 @@ header {
         width: 100%;
         text-align: center;
         font-style: normal;
-        font-size: 2rem;
+        font-size: 1.6rem;
         color: #555;
     }
 }
@@ -138,7 +138,9 @@ article {
         margin: 0;
         padding: 0;
         text-align: center;
-        font-size: 2.2rem;
+        font-size: 1.8rem;
+        line-height: 2;
+        letter-spacing: -1px;
     }
 
     .contact {
@@ -160,7 +162,7 @@ article {
                 span {
                     padding: 0 20px 0 10px;
                     color: #555;
-                    font-size: 2.2rem;
+                    font-size: 1.8rem;
                 }
             }
 
@@ -216,6 +218,23 @@ article {
     .map {
         position: relative;
         flex: 1 1 auto;
+    }
+
+    .address {
+        margin:10px 20px 0;
+        p {
+            margin:0;
+            color: #555;
+
+            strong {
+                font-size: 1.6rem;
+            }
+
+            a {
+                color: #555;
+                text-decoration: none;
+            }
+        }
     }
 }
 
