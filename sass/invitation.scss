@@ -55,6 +55,7 @@ body {
 header {
     position: relative;
     height: $contentHeight;
+    min-height: 640px;
     background: url('../img/sunlight.jpg') no-repeat center center scroll;
     background-size: cover;
     color: #555;
