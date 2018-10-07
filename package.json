@@ -1,0 +1,8 @@
+{
+  "name": "invitation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/poohding/invitation.git",
+  "author": "kjy2143 <kjy2143@gmail.com>",
+  "license": "MIT"
+}
