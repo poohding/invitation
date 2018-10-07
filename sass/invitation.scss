@@ -40,6 +40,10 @@ body {
     }
 }
 
+.rounded {
+    border-radius: 4px;
+}
+
 #container {
     box-sizing: border-box;
     padding-top: env(safe-area-inset-top);
