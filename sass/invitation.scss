@@ -203,16 +203,10 @@ article {
 }
 
 .location {
-    display: flex;
-    flex-direction: column;
-
-    h2 {
-        flex: 0 1 auto;
-    }
+    height: auto;
 
     .map {
         position: relative;
-        flex: 1 1 auto;
     }
 
     .address {
