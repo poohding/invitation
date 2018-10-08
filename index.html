@@ -80,14 +80,22 @@
                         layout="responsive">
                     </amp-img>
                 </li>
-                <!-- <li>
+                <li>
                     <amp-img lightbox
                         src="./img/jeju-92.jpg"
                         width="640"
                         height="854"
                         layout="responsive">
                     </amp-img>
-                </li> -->
+                </li>
+                <li>
+                    <amp-img lightbox
+                        src="./img/jeju-120.jpg"
+                        width="960"
+                        height="640"
+                        layout="responsive">
+                    </amp-img>
+                </li>
                 <li>
                     <amp-img lightbox
                         src="./img/jeju-122.jpg"
@@ -158,13 +166,6 @@
         <article class="location">
             <h2>Location</h2>
 
-            <!-- <amp-iframe
-                sandbox="allow-scripts allow-same-origin allow-popups"
-                layout="fill"
-                frameborder="0"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDWlmXNFVVUWE5W8BjnW-GQgBf0aUTpyVc&q=더컨벤션송파문정점">
-            </amp-iframe> -->
-
             <div class="wrapper">
                 <amp-iframe
                     sandbox="allow-scripts allow-same-origin allow-popups"
@@ -216,54 +217,16 @@
             <h2>SNS</h2>
             <amp-social-share width="68" height="68" class="rounded" type="facebook" data-param-app_id="742853866048496"></amp-social-share>
             <amp-social-share width="68" height="68" class="rounded" type="twitter"></amp-social-share>
-            <amp-img
+            <!-- <amp-img
                 id="kakao-link-btn"
                 src="http://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
                 width="68"
                 height="69"
                 layout="fixed"
-            ></amp-img>
+            ></amp-img> -->
             <amp-social-share width="68" height="68" class="rounded" type="line"></amp-social-share>
         </footer>
     </div>
-
-    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
-    <script type='text/javascript'>
-        //<![CDATA[
-          // // 사용할 앱의 JavaScript 키를 설정해 주세요.
-          Kakao.init('e1c8383c179f610dd6b0cf5e5627d7fd');
-          // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
-          Kakao.Link.createDefaultButton({
-            container: '#kakao-link-btn',
-            objectType: 'feed',
-            content: {
-              title: '김정윤과 전지영의 결혼식에 초대합니다.',
-              description: '2018-12-15(토) 오후 12시 15분\n더컨벤션 송파문정점 - 12층 그랜드볼룸',
-              imageUrl: 'http://doublejwedding.com/img/jeju_429_w.jpg',
-              link: {
-                mobileWebUrl: 'http://doublejwedding.com/index.html',
-                webUrl: 'http://doublejwedding.com/index.html'
-              }
-            },
-            buttons: [
-              {
-                title: '자세히 보기',
-                link: {
-                  mobileWebUrl: 'http://doublejwedding.com/index.html',
-                  webUrl: 'http://doublejwedding.com/index.html'
-                }
-              },
-              {
-                title: '위치 보기',
-                link: {
-                  mobileWebUrl: 'http://map.daum.net/?urlX=527141&urlY=1106922&itemId=167068900',
-                  webUrl: 'http://map.daum.net/?urlX=527141&urlY=1106922&itemId=167068900'
-                }
-              }
-            ]
-          });
-        //]]>
-      </script>
 </body>
 
 </html>
