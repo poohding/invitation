@@ -205,8 +205,9 @@ article {
 .location {
     height: auto;
 
-    .map {
+    .wrapper {
         position: relative;
+        height: 300px;
     }
 
     .address {
